@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #f6f8f2;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  color: #EDF5E1
+}
+
+h2{
+  font-family: 'Work Sans', sans-serif;
+  color: #05386B;
+}
+
+.center {
+  position: absolute;
+  width: 300px;
+  height: 340px;
+  z-index: 15;
+  top: 40%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  padding: 30px;
+  border: 1px solid #05386B;
+  border-radius: 5px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.button {
+  background-color: #8EE4AF;
+  border: solid 2px #8EE4AF;
+  color: #05386B;
+  font-family: 'Sora', sans-serif;
+  border-radius: 5px;
+  width:85%;
+  outline: none;
+}
+
+p {
+  color: #EDF5E1;
+  font-family: 'Sora', sans-serif;
+}
+
+.button:hover {
+  background-color: #5CDB95;
+  border: solid 2px #5CDB95;
+}
+
+.button:active {
+  outline: none;
+}
+
+#input {
+  border-radius: 5px;
+  border: solid 1px #8EE4AF;
+  border-color: #8EE4AF;
+  font-family: 'Sora', sans-serif;
+  width:85%;
+  outline: none;
+}
+
+#input:focus {
+  border: solid 1px #5CDB95;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
