@@ -17,7 +17,7 @@ const Login = (props) => {
             </Row>
             <Row style={{marginBottom:"7%"}}>
                 <Col>
-                    <input id="input" placeholder="password" onChange={(event) => props.credentials('password', event.target.value)}></input>
+                    <input id="input" placeholder="password" type="password" onChange={(event) => props.credentials('password', event.target.value)}></input>
                 </Col>
             </Row>
             <Row style={{marginBottom:"7%"}}>
@@ -33,7 +33,7 @@ const Login = (props) => {
             {props.errorMessage ? 
             <Row style={{marginBottom:"5%"}}>
                 <Col>
-                    <p style={{color:"red"}}>{props.errorMessage}</p>
+                    <p style={{color:"red", fontSize:"10px"}}>{props.errorMessage}</p>
                 </Col>
             </Row>
             : null}
